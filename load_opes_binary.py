@@ -10,13 +10,13 @@ import sys, os, time
 import numpy as np
 import gc
 
-sys.path.append(r"C:\Users\tantirim\Documents\GitHub\analysis-tools\Python3") # path to folder with Binary.py
+sys.path.append(r"C:\Users\tantirim\Documents\GitHub\analysis-tools") # path to folder with Binary.py
 import Binary
 
 #%% Import data
 
-Folder = r'\\S-VFS-EXT01\JLab$\X\User\Malinda X\ephys\2021-04-19_18-55-09_500um'
-#Folder = r'\\S-VFS-EXT01\JLab$\X\User\Malinda X\ephys\2021-04-16_19-25-53_600um_2'
+
+Folder = r'\\S-VFS-EXT01\JLab$\X\User\Malinda X\ephys\2021-04-16_19-25-53_600um_2'
 Exp_num = 1 # experiment number in folder  1 or 2 or n
 Rec_num = 1 # recording number in folder  1 or 2 or n
 
